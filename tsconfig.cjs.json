@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "allowImportingTsExtensions": false,
+    "moduleResolution": "Node",
+    "verbatimModuleSyntax": false,
+    "noEmit": false
+  },
+  "exclude": [
+    "lib"
+  ]
+}
